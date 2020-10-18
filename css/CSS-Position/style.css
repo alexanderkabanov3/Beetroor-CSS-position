@@ -1,0 +1,19 @@
+body{
+    background-color: #b07cf7;
+}
+
+.container{
+    background-color: red;
+    width: 1170px;
+    height: 644px;
+    margin: 100px auto 120px auto;
+}
+
+
+.back{
+    margin: 30px;
+    position: relative;
+    top: -310px;
+    width: 60px;
+}
+

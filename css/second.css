@@ -1,0 +1,115 @@
+
+
+
+.container{
+    width: 1170px;
+    height: 510px;
+    margin: 109px auto 119px auto;
+}
+
+.foto1{
+    width: 270px;
+    height: 268px;
+}
+
+.foto2{
+    width: 270px;
+    height: 268px;
+    background-image: url(../img/01\ \(3\).png);
+}
+
+.foto3{
+    width: 270px;
+    height: 268px;
+    background-image: url(../img/02\(3\).png);
+}
+
+.foto4{
+    width: 270px;
+    height: 268px;
+    background-image: url(../img/05.png);
+}
+
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 62px;
+}
+
+.icons{
+    padding: 10px;
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+}
+
+.foto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.who{
+    font-family: 'lato-bold', sans-serif;
+    font-size: 34px; 
+    color: #3c3c3c;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+hr{
+    border: 2px solid #dddbdb;
+    width: 45px;
+    margin-top: 20px;
+}
+
+.lorem{
+    width: 546px;
+    text-align: center;
+    margin: 45px auto 0px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.john{
+    font-family: 'lato-bold', sans-serif;
+    font-size: 18px;
+    margin-top: 21px;
+    color: #282528;
+}
+
+.lead{
+    margin-top: 8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #646464;
+}
+
+
+.foto1:hover{
+    background-color: #18b5dc;
+}
+
+.foto1:hover .icons{
+    filter: invert();
+    background-color: #A13418;    
+}
+
+
+.foto2:hover{
+    background-color: #18b5dc;
+}
+
+.foto3:hover{
+    background-color: #18b5dc;
+}
+
+.foto4:hover{
+    background-color: #18b5dc;
+}
+
+@font-face{
+    font-family: "lato-bold";
+    src: url(/fonts/lato-bold.ttf);
+}
