@@ -8,15 +8,17 @@ body{
 }
 
 .container{
-    width: 1170px;
-    height: 864px;
+    max-width: 1170px;
+    height: 100%;
     margin: 100px auto 120px auto;
 }
 
 
 .secii{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+
     margin-top: 50px;
 }
 
@@ -24,22 +26,24 @@ body{
     background-image: url(../img/img1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 360px;
-    height: 310px;
+    flex-basis: 360px;
+    margin: 15px;
 }
 
 .sec2{
     background-image: url(../img/img2.png);
     background-repeat: no-repeat;
-    width: 360px;
-    height: 310px;
+    background-size: cover;
+    flex-basis: 360px;
+    margin: 15px;
 }
 
 .sec3{
     background-image: url(../img/img3.png);
     background-repeat: no-repeat;
-    width: 360px;
-    height: 310px;
+    background-size: cover;
+    flex-basis: 360px;
+    margin: 15px;
 }
 
 .bg{
@@ -82,6 +86,7 @@ body{
     color: #fff;
     font-size: 13px;
     margin: 26px 20px 0 20px;
+    padding-bottom: 20px;
 }
 
 .blog{
@@ -95,7 +100,7 @@ body{
 }
 
 .dolore{
-    width: 563px;
+    max-width: 563px;
     text-align: center;
     margin: 31px auto 0px auto;
     font-family: 'Raleway', sans-serif;
